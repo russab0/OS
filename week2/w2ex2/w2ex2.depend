@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1535541180 source:/home/sabzirov/GitHub/week2/w2ex2/main.c
+	<stdio.h>
+	<stdlib.h>
+
