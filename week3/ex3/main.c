@@ -46,6 +46,7 @@ void delete_node(struct List *l, int pos, struct List *prev){ // will delete a c
         return;
     }
     if (pos == 0){
+        if (prev == NULL){
             l->x = l->next->x;
             l->next = l->next->next;
         }
@@ -58,11 +59,9 @@ void delete_node(struct List *l, int pos, struct List *prev){ // will delete a c
 }
 
 
-
 int main()
 {
     struct List *l = create_list(21, NULL);
-
 
     print_list(l);
     insert_node(l, 0, 5);
@@ -74,13 +73,11 @@ int main()
     insert_node(l, 3, 100);
     print_list(l);
 
-
     insert_node(l, 4, 1);
     insert_node(l, 5, 2);
     insert_node(l, 6, 3);
     insert_node(l, 7, 4);
     print_list(l);
-
 
     delete_node(l, 0, NULL);
     print_list(l);
