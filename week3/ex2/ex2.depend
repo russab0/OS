@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1536154737 source:/home/sabzirov/OS/week3/ex2/main.c
+	<stdio.h>
+	<stdlib.h>
+

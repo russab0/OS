@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536175680 source:/home/sabzirov/OS/week3/ex3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
