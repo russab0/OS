@@ -62,7 +62,7 @@ void delete_node(struct List *l, int pos, struct List *prev){ // will delete a c
 int main()
 {
     struct List *l = create_list(21, NULL);
-
+    int a[0];
     print_list(l);
     insert_node(l, 0, 5);
     print_list(l);
