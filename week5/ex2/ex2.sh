@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 for i in {0..512} 
 do  
 	new=$(cat ex2.txt | tail -n 1)
