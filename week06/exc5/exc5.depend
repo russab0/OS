@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537994439 source:/home/sabzirov/OS/week06/exc5/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+
