@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537967173 source:/home/sabzirov/OS/week6/exc1/main.c
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+
