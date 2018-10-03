@@ -2,24 +2,17 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
 #define MAX_LEN 100
-
-
-void read_command(char *command){
-    gets(command);
-}
-
-
-void next_line(){
-    printf("> ");
-}
+#define NEXT_LINE ">>> "
 
 
 int main(){
     char command[MAX_LEN];
     while (true) {
-        next_line();
-        read_command(command);
+        printf(NEXT_LINE);
+        char *command;
+        gets(command);
         system(command);
     }
     return 0;
