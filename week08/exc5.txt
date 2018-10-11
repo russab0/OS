@@ -1,0 +1,2 @@
+Physical memory - is RAM memory that can be touched by hands (RAM module).
+Virtual memory - is simulation of physical memory, it is stored in ROM module (for example HDD, SDD drive)
