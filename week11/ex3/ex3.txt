@@ -1,0 +1,2 @@
+There are difference between outputs of these programs and it occurs because of the fork instruction, which copies the contents of the stdout buffer.
+First program copies string "Hello", the second — Null.

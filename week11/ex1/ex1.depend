@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1541097639 source:/home/sabzirov/Git/OS/week11/ex1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/fcntl.h>
+	<sys/mman.h>
+	<unistd.h>
+	<memory.h>
+
